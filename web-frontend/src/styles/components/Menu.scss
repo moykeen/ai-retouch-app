@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.menu {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 17;
+  grid-column-end: 17;
+
+  background-color: $menu-bg;
+  z-index: 2;
+  display: flex;
+  align-items: first baseline;
+  width: 100%;
+  flex-flow: column;
+  justify-content: space-between;
+
+  &__item {
+    padding: 1.5vw;
+    cursor: pointer;
+
+    svg {
+      width: 2.34375vw;
+      height: 2.34375vw;
+    }
+
+    &:hover {
+      background: $toolbar-bg;
+      transition-duration: 0.3s;
+    }
+
+    &_active {
+      background-color: $toolbar-bg;
+    }
+  }
+
+  .generate_button {
+    box-shadow: 0 0 20px #48d5e4;
+
+    svg.progress {
+      animation: spinner-e04l1k 1s infinite linear;
+    }
+  }
+}
