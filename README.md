@@ -18,6 +18,25 @@ Stable Diffusion (SD)のオリジナルGUIクライアント。ゼロからの�
 - アルファブレンド
 - 動画生成を見据えたバッチ処理
 
+## 技術スタック
+
+- プログラミング言語
+  - Python
+  - TypeScript
+- フレームワーク / ライブラリ
+  - React
+  - MobX
+  - CDK
+  - Stable Diffusion WebUI
+  - Pillow
+  - Tensorflow.js
+- SaaS
+  - Lambda
+  - API Gateway
+  - Cognito
+  - EC2
+  - DynamoDB
+  - CloudFront
 
 ## 構成
 
