@@ -119,54 +119,12 @@ const POSITIVE_PROMPT_OPTIONS = [
   "indoors",
   "outdoors",
 
-  // 髪型
-  "ponytail",
-  "see-though bang",
-  "diagonal bangs",
-  "layered haircut",
-  "curly hair",
-  "shaggy cut",
-  "side ponytail",
-  "high ponytail",
-  "half updo",
-  "french braid",
-  "hair_pulled_back",
-
-  //体型
-  "skinny",
-  "hourglass figure",
-  "large breasts",
-  "thin arms",
-
-  // 肌感
-  "pale skin",
-  "prominent veins",
-
-  // 服装
-  "bikini",
-  "swimsuit",
-  "lingerie",
-  "office suits",
-
-  // 姿勢
-  "full body",
-  "standing",
-  "sitting",
-  "looking back",
-  "looking at viewer",
-  "squatting",
-
   // 表情
   "light smile",
   "angry",
   "serious",
   "closed mouth",
   "closed eye",
-
-  // 年齢
-  "40years old woman",
-  "32 y.o mature female",
-  "girl",
 
   // 人種
   "Japanese",
