@@ -2,6 +2,8 @@
 
 Stable Diffusion (SD)のオリジナルGUIクライアント。ゼロからの画像生成ではなく、画像の一部修正というユースケースに特化したアプリケーション。
 
+![before](figures/screenshot2.jpg)
+
 ## 特徴
 
 ### Main features
@@ -43,6 +45,8 @@ Stable Diffusion (SD)のオリジナルGUIクライアント。ゼロからの�
 - web-frontend
 - sd-service (バックエンド)
 - infra (IaC)
+
+![AWS architecture](figures/aws-arch.png)
 
 ## デプロイ手順
 
